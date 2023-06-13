@@ -70,5 +70,36 @@
             "typeOfService": "Bio-Exercism"
         }
     ],
-    "requests": []
+    "requests": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 1,
+            "serviceId": 1
+        },
+        {
+            "id": 2,
+            "employeeId": 1,
+            "customerId": 2,
+            "serviceId": 2
+        },
+        {
+            "id": 3,
+            "employeeId": 1,
+            "customerId": 3,
+            "serviceId": 3
+        },
+        {
+            "id": 4,
+            "employeeId": 1,
+            "customerId": 1,
+            "serviceId": 4
+        },
+        {
+            "id": 5,
+            "employeeId": 1,
+            "customerId": 2,
+            "serviceId": 5
+        }
+    ]
 }
