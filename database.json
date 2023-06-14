@@ -1,105 +1,111 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Barbara Maitland",
-            "email": "barbara.maitland@example.com",
-            "isStaff": false
-        },
-        {
-            "id": 2,
-            "fullName": "Adam Maitland",
-            "email": "adam.maitland@example.com",
-            "isStaff": false
-        },
-        {
-            "id": 3,
-            "fullName": "Lydia Deetz",
-            "email": "ldeets@strangeandunusual.com",
-            "isStaff": false
-        },
-        {
-            "id": 4,
-            "fullName": "Betelgeuse",
-            "email": "sayitthreetimes@ghostwiththemost.com",
-            "isStaff": true
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "address": "123 Cursed Lane",
-            "userId": 1
-        },
-        {
-            "id": 2,
-            "address": "123 Cursed Lane",
-            "userId": 2
-        },
-        {
-            "id": 3,
-            "address": "123 Cursed Lane",
-            "userId": 3
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "userId": 4
-        }
-    ],
-    "services": [
-        {
-            "id": 1,
-            "typeOfService": "Sandworm Removal"
-        },
-        {
-            "id": 2,
-            "typeOfService": "Haunting Consultation"
-        },
-        {
-            "id": 3,
-            "typeOfService": "Ghostly Makeover"
-        },
-        {
-            "id": 4,
-            "typeOfService": "Scaring Basics Workshop"
-        },
-        {
-            "id": 5,
-            "typeOfService": "Bio-Exercism"
-        }
-    ],
-    "requests": [
-        {
-            "id": 1,
-            "employeeId": 1,
-            "customerId": 1,
-            "serviceId": 1
-        },
-        {
-            "id": 2,
-            "employeeId": 1,
-            "customerId": 2,
-            "serviceId": 2
-        },
-        {
-            "id": 3,
-            "employeeId": 1,
-            "customerId": 3,
-            "serviceId": 3
-        },
-        {
-            "id": 4,
-            "employeeId": 1,
-            "customerId": 1,
-            "serviceId": 4
-        },
-        {
-            "id": 5,
-            "employeeId": 1,
-            "customerId": 2,
-            "serviceId": 5
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Barbara Maitland",
+      "email": "barbara.maitland@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Adam Maitland",
+      "email": "adam.maitland@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Lydia Deetz",
+      "email": "ldeets@strangeandunusual.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Betelgeuse",
+      "email": "sayitthreetimes@ghostwiththemost.com",
+      "isStaff": true
+    },
+    {
+      "email": "emily.davis@example.com",
+      "fullName": "Emily Davis",
+      "isStaff": false,
+      "id": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "123 Cursed Lane",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "address": "123 Cursed Lane",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "address": "123 Cursed Lane",
+      "userId": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 4
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "typeOfService": "Sandworm Removal"
+    },
+    {
+      "id": 2,
+      "typeOfService": "Haunting Consultation"
+    },
+    {
+      "id": 3,
+      "typeOfService": "Ghostly Makeover"
+    },
+    {
+      "id": 4,
+      "typeOfService": "Scaring Basics Workshop"
+    },
+    {
+      "id": 5,
+      "typeOfService": "Bio-Exercism"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "customerId": 1,
+      "serviceId": 1
+    },
+    {
+      "id": 2,
+      "employeeId": 1,
+      "customerId": 2,
+      "serviceId": 2
+    },
+    {
+      "id": 3,
+      "employeeId": 1,
+      "customerId": 3,
+      "serviceId": 3
+    },
+    {
+      "id": 4,
+      "employeeId": 1,
+      "customerId": 1,
+      "serviceId": 4
+    },
+    {
+      "id": 5,
+      "employeeId": 1,
+      "customerId": 2,
+      "serviceId": 5
+    }
+  ]
 }
